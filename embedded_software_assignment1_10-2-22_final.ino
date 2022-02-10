@@ -9,12 +9,13 @@
 /* the timings for a, b, d and the length of signal B were mutiplied 
  *  by 1000 during development to make squence more visible
  */
-int a = 400 //*1000;
-int b = 100 //*1000;
+int a = 400; //*1000;
+int b = 100; //*1000;
 int c = 15;  // counter max
-int d = 2500 //*1000;
+int d = 2500; //*1000;
 
 // variable for statuses of signals A and B
+
 int ledAstate;
 int ledBstate;
 
