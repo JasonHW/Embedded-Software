@@ -45,7 +45,7 @@ void setup() {
   waveform_on = HIGH; // kill button when HIGH
   waveform_extend = LOW; // extend the waveform by 3 (c + 3)
   
-  interval = 50*1000; // initial interval
+  interval = 50; //*1000; // initial interval
 }
 
 // the loop function runs over and over again forever
@@ -139,7 +139,7 @@ void signalB(){
     }
     else {
       ledBstate = 1; // turn on B
-      interval = 50*1000; //length of signal B
+      interval = 50; //*1000; //length of signal B
       digitalWrite(ledB, HIGH);
     }
   }
